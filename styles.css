@@ -1,2 +1,23 @@
 
+
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	width:100%;
+}
+.item{
+	width:100px;
+	height:100px;
+	margin:10px;
+}
+.item1 {
+  background-color: red;
+}
+.item2 {
+  background-color: blue;
+}
+.item3, .item4, .item5, .item6, .item7 {
+  background-color: green;
+}
